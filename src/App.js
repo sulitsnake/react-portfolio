@@ -1,21 +1,16 @@
 import './App.css';
+import Navibar from './components/Navibar';
+import Aboutme from './components/Aboutme';
+import Projects from './components/Projects';
+import './style.css'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navibar />
+      <Aboutme />
+      <Projects />
     </div>
   );
 }
