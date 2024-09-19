@@ -10,7 +10,7 @@ function Navibar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#projects">My Projects</Nav.Link>
-            <Nav.Link href="#contact">ContactMe!</Nav.Link>
+            <Nav.Link href="#contactme">ContactMe!</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,0 +1,60 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+
+}
+
+form {
+    max-width: 600px;
+    width: 100%;
+    background: #fed7b069;
+    padding: 30px 30px 40px;
+    border-radius: 8px;
+    box-shadow: 2 2 12px rgba(0, 0, 0, .1);
+}
+
+label {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+form .inputbox{
+margin-top: 15px;
+
+}
+
+.inputbox .field{
+    width: 100%;
+    height: 35pxl;
+    background: transparent;
+    border: 2px solid #291515;
+    outline: none;
+    border-radius: 6px;
+    padding: 16px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.inputbox .message {
+    width: 100%;
+    height: 200px;
+    background: transparent;
+    border: 2px solid #291515;
+    resize: none;
+    margin-top: 10px;
+}
+
+form button {
+
+    width: 100%;
+    height: 55px;
+    background:#ffffff69;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 35px;
+}
