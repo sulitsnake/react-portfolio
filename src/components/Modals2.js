@@ -1,9 +1,12 @@
 import React from "react";
+import './modalstyle.css'
+
 function Modals2({ setModal2 }) {
 return (
 
     <div className = "modalBackground">
         <div className = "modalContainer">
+        <img src="images/proj2.jpg" alt="..."/>
             <div className = "title">
                 <h5>Face study</h5>
             </div>
@@ -13,7 +16,7 @@ return (
             </div>
 
             <div className = "footer">
-                <button onClick={() => setModal2(false)}>X</button>
+                <button onClick={() => setModal2(false)}>Exit</button>
             </div>
         </div>
     </div>

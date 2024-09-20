@@ -4,7 +4,6 @@ import Card from 'react-bootstrap/Card';
 import Modals from "./Modals";
 import Modals2 from "./Modals2";
 import Modals3 from "./Modals3";
-//import Modal from 'react-bootstrap/Modal';
 import {Container, Row, Col} from 'react-bootstrap';
 
 function Projects() {
